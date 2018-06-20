@@ -1,0 +1,10 @@
+import {
+    LOADINGETHERIUMADRESS_REQUEST,
+    LOADINGETHERIUMADRESS_SUCCESS,
+    LOADINGETHERIUMADRESS__FAILURE
+} from '../actionTypes' 
+
+const validationCheckHelper = () => {
+    type: LOADINGETHERIUMADRESS_REQUEST
+}
+

@@ -1,0 +1,25 @@
+.SearchDropdownItem {
+  padding: 5px 10px;
+  font-size: 12px;
+}
+
+.SearchDropdownItem-link {
+  display: flex;
+  align-items: center;
+}
+
+.SearchDropdownItem-text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.SearchDropdownItem-right {
+  flex-shrink: 0;
+  padding-left: 5px;
+  background-color: #fff;
+}
+
+.SearchDropdownItem-category {
+  color: #29b6f6;
+}
