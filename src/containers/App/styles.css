@@ -5,3 +5,9 @@
   height: 100vh;
 }
 
+ input[type="submit"] {
+    width: 20px; /* Ширина кнопки */
+    height: 20px; /* Высота кнопки */
+    border: none; /* Убираем рамку */
+
+   }

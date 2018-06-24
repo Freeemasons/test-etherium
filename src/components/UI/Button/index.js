@@ -4,14 +4,7 @@ import PT from 'prop-types'
 
 import cx from 'classnames'
 
-// class Button extends Component {
-//     render() {
-
-//         return(
-//             <Button/>
-//         )
-//     }
-// }
+import './styles.css'
 
 const Button = props => {
 

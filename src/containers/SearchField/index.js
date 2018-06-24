@@ -16,9 +16,10 @@ class SearchField extends Component {
     state = {
         value: ''
     }
+
     renderError = () => {
          if (this.state.value === 'adress') {
-             return null
+             return <SearchDropDown />
          } else {
              return <div>error</div>
          }   
@@ -31,19 +32,23 @@ class SearchField extends Component {
     }
 
     render() {
+
+        // if (this.state.value === 'adress') {
+        //     return <div>Все верно!</div>
+        // }
+
         return(
-            <div className="SearchField">
+            <div >
                 {this.renderError()}
-                <div className="SearchField-input">
+                <div className="SearchField">
                     <TextInput
                         value={this.state.value}
                         changeTextHandler={this.changeTextHandler}
                          />
-                        
-                </div>
-                <Button />
+                    <Button className="Button" />
+                </div>             
                 <div className="SearchField-dropdown">
-                    <SearchDropDown />
+                    
                 </div>
             </div>
         )
